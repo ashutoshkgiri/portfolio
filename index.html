@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ashutosh kumar giri Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+
+
+#about-section p, 
+#about-section span, 
+#about-section li {
+    color: white !important; /* Ensuring text is dark */
+    font-weight: bold; /* Making text bolder */
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+.one-third.js-fullheight.order-md-last.img {
+    background-image: url('images/bg_12.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.one-third.js-fullheight.order-md-last.img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text contrast */
+}
+
+.one-third.js-fullheight.order-md-last.img {
+    background-size: cover; /* Ensures the image covers the section properly */
+    background-attachment: fixed; /* Adds a parallax effect */
+    background-position: center center; /* Centers the image */
+}
+
+.one-third.js-fullheight.order-md-last.img::before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Ashutosh kumar giri</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						
+						<!-- Background Image with Improved Overlay -->
+						<div class="one-third js-fullheight order-md-last img" style="background-image: url('images/bg_12.jpeg'); position: relative;">
+							<div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+						</div>
+	
+						<!-- Hero Content -->
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax="properties: { translateY: '50%' }">
+							<div class="text">
+								<span class="subheading" style="color: #f8f9fa; font-size: 18px; letter-spacing: 1px;">Hello!</span>
+								<h1 class="mb-4 mt-3" style="font-size: 50px; font-weight: bold; color: white;">
+									I'm <span style="color: #ffd700;">Ashutosh Kumar Giri</span>
+								</h1>
+	
+								<!-- Typing Animation -->
+								<span id="typing-animation" style="font-size: 24px; font-weight: 600; color: #ddd;"></span>
+	
+								<script>
+									const typingElement = document.getElementById('typing-animation');
+									const typingTexts = ["Engineer", "Third Year Undergraduate", "Full-Stack Developer"];
+									let index = 0, charIndex = 0;
+									
+									function typeEffect() {
+										if (charIndex < typingTexts[index].length) {
+											typingElement.innerHTML += typingTexts[index].charAt(charIndex);
+											charIndex++;
+											setTimeout(typeEffect, 150);
+										} else {
+											setTimeout(() => {
+												typingElement.innerHTML = '';
+												charIndex = 0;
+												index = (index + 1) % typingTexts.length;
+												typeEffect();
+											}, 1500);
+										}
+									}
+									typeEffect();
+								</script>
+	
+								<br><br>
+								<h2 style="color: white; font-size: 30px; font-weight: bold;">Full Stack Developer</h2>
+	
+								<!-- Buttons with Modern Design -->
+								<p class="mt-4">
+									<a href="https://www.linkedin.com/in/ashutosh-kumar-giri-007741273/" 
+										class="btn btn-primary py-3 px-4" style="background: #0077b5; border-radius: 30px; font-size: 18px;">LinkedIn</a>
+									<a href="https://github.com/ashutoshkgiri" 
+										class="btn btn-dark py-3 px-4" style="border-radius: 30px; font-size: 18px;">GitHub</a>
+									<a href="https://leetcode.com/u/ashgiri49455/" 
+										class="btn btn-warning py-3 px-4" style="border-radius: 30px; font-size: 18px; color: black;">LeetCode</a>
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section" 
+    style="background: url('images/bg2.webp') no-repeat center center; background-size: cover; color: white; padding: 80px 0;">
+
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="img-about img d-flex flex-column justify-content-center p-4"
+                    style="background: rgba(0, 0, 0, 0.7); border-radius: 10px;">
+
+                    <h3 class="mb-3">Specialization</h3>
+                    <p><strong>Web & Mobile App Development</strong></p>
+
+                    <h3 class="mb-3">Tech Stack</h3>
+                    <p><strong>MERN, React Native, MySQL, Firebase</strong></p>
+
+                    <h3 class="mb-3">Passion</h3>
+                    <p><strong>Building scalable applications & solving complex problems</strong></p>
+
+                    <!-- Skills Section -->
+                    <div class="skill-mf mt-4">
+                        <h3 class="mb-3">Programming & Problem Solving Skills</h3>
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <p>C++ <span class="float-right">95%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width: 90%"></div>
+                                </div>
+
+                                <p>JavaScript <span class="float-right">80%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" style="width: 85%"></div>
+                                </div>
+
+                                <p>Node.js <span class="float-right">92%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" style="width: 90%"></div>
+                                </div>
+
+                                <p>React.js <span class="float-right">80%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" style="width: 85%"></div>
+                                </div>
+
+                                <p>MongoDB <span class="float-right">85%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" style="width: 75%"></div>
+                                </div>
+
+                                <p>React Native <span class="float-right">80%</span></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-secondary" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Competitive Programming Section -->
+                            <div class="col-md-6">
+                                <p><strong>🔥 LeetCode:</strong> 650+ problems solved</p>
+                                <p><strong>🏆 LeetCode Rating:</strong> 1802</p>
+                                <p><strong>⏳ Contest Experience:</strong> 7+ months</p>
+                                <p><strong>🎯 Goal:</strong> Reach Knight Batch</p>
+                                <p><strong>💡 Strength:</strong> Algorithms, Data Structures, Optimization</p>
+
+                                <!-- LeetCode Profile Button -->
+                                <a href="https://leetcode.com/u/ashgiri49455/" target="_blank" 
+                                    class="btn btn-primary mt-3">View My LeetCode</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+	
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Versatile Full-Stack Software Engineer with expertise in building scalable web and mobile applications. Proficient in MERN stack, Data Structures & Algorithms (DSA), and database management, with hands-on experience in React.js, Node.js, Express.js, and MongoDB.</p>
+          </div>
+        </div>
+
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2022-2026</span>
+    					<h2>Bachelor of Technology</h2>
+    					<span class="position">Bennett University, Greater Noida</span>
+						<p class="mt-4">CGPA: 9.57</p>
+    					<p class="mt-4">Specialization: Full-Stack.</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">K V afs Hakimpet</span>
+    					<p class="mt-4">Class 12-91.2%</p>
+						<p class="mt-4">Class 10-83.6%</p>
+    				</div>
+				</div>
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1dJcwfvN6yWcSU8mVmYDlnH3m9yj-00lE/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+		  <div class="row justify-content-center mb-5 pb-5">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Projects</h1>
+			  <h2 class="mb-4">Projects</h2>
+			  <p>Below are some of my projects developed using modern technologies, including MERN Stack and AI-based tools.</p>
+			</div>
+		  </div>
+		  <div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry justify-content-end">
+				<a href="https://github.com/your-github/Prescripto" class="block-20 zoom-effect" style="background-image: url('images/Prescripto.webp');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+				  <h3 class="heading"><a href="https://github.com/ashutoshkgiri/prescripto">Prescripto - Healthcare Management System</a></h3>
+				  <p>Prescripto is a healthcare management platform enabling online appointments, e-prescriptions, and telemedicine services. Built using MERN stack with role-based access control.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry justify-content-end">
+				<a href="https://github.com/ashutoshkgiri/Vendor-connect" class="block-20 zoom-effect" style="background-image: url('images/vendor.webp');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+				  <h3 class="heading"><a href="https://github.com/your-github/Vendor-Management-System">Vendor Management System</a></h3>
+				  <p>A robust vendor management system featuring vendor registration, role-based access, and automated document processing, ensuring seamless operations.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry">
+				<a href="https://github.com/your-github/ImageG" class="block-20 zoom-effect" style="background-image: url('images/t-image.webp');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+				  <h3 class="heading"><a href="https://github.com/ashutoshkgiri/ImageG">ImageG - Text-to-Image Generator</a></h3>
+				  <p>ImageG is an AI-powered text-to-image generation tool that converts textual descriptions into high-quality images using deep learning models.</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Greater Noida, Uttar Pradesh</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+91 7212202216</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="e22cseu0738@bennett.edu.in">e22cseu0728@bennett.edu.in</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1dJcwfvN6yWcSU8mVmYDlnH3m9yj-00lE/view?usp=sharing">Resume Link</a></p>
+	          </div>
+          </div>
+
+		
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ashutosh-kumar-giri-007741273/"><span class="icon-linkedin"></span></a></li>  
+				      <li class="ftco-animate"><a href="https://www.instagram.com/as.hutosh7665/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
